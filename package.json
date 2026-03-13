@@ -1,0 +1,14 @@
+{
+  "name": "brandcheck-word-addin",
+  "version": "1.0.0",
+  "description": "BrandCheck – Microsoft Word task pane add-in for brand and style linting",
+  "scripts": {
+    "start": "office-addin-dev-server start --document taskpane.html --port 3000",
+    "stop":  "office-addin-dev-server stop",
+    "certs": "office-addin-dev-certs install"
+  },
+  "devDependencies": {
+    "office-addin-dev-certs": "^1.10.0",
+    "office-addin-dev-server": "^1.4.0"
+  }
+}
